@@ -3,5 +3,5 @@ exit:
 write:
 	gcc -o write.o write.c start.s write.s -nostdlib
 clean:
-	rm -rf *.o
+	rm -rf *.o *.out
 .PHONY: clean
